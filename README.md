@@ -12,6 +12,7 @@
 10. create Navbar using a Class Component and react-icons for the toggle button;
 11. create Hero Component with defaultProps for className;
 12. create Banner Component with 'title', 'subtitle' and 'children' props;
+13. create Services and Section Title Component;
 
 To do later:
 
