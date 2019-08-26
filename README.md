@@ -10,6 +10,9 @@
 8. create 'components' folder;
 9. touch 'components/Navbar.js';
 10. create Navbar using a Class Component and react-icons for the toggle button;
+11. create Hero Component with defaultProps for className;
+12. create Banner Component with 'title', 'subtitle' and 'children' props;
 
 To do later:
-a. refactor Navbar as a Functional Component using Hooks;
+
+- refactor Navbar as a Functional Component using Hooks;
