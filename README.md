@@ -13,6 +13,11 @@
 11. create Hero Component with defaultProps for className;
 12. create Banner Component with 'title', 'subtitle' and 'children' props;
 13. create Services and Section Title Component;
+14. setup 'context.js' and use the Context API;
+15. create 'FeaturedRooms.js' and start using RoomsContext;
+16. import 'data.js' inside 'context.js' and format the incoming data in a new object;
+17. create Loading Component with a gif;
+18. create Room Component and display a list of Rooms inside FeaturedRoom Component;
 
 To do later:
 
