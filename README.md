@@ -18,6 +18,10 @@
 16. import 'data.js' inside 'context.js' and format the incoming data in a new object;
 17. create Loading Component with a gif;
 18. create Room Component and display a list of Rooms inside FeaturedRoom Component;
+19. create a function inside 'context.js' called getRoom with a 'slug' parameter to filter 'rooms' based on it;
+20. update 'SingleRoom.js' page with RoomContext;
+21. install styled-components to render Hero Component background dinamically;
+22. create 'StyledHero.js';
 
 To do later:
 
