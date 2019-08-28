@@ -1,17 +1,21 @@
-import React from 'react';
+import React, { Fragment } from 'react';
 import Hero from '../components/Hero';
 import Banner from '../components/Banner';
+import RoomsContainer from '../components/RoomsContainer';
 import { Link } from 'react-router-dom';
 
 const Rooms = () => {
 	return (
-		<Hero hero='roomsHero'>
-			<Banner title='rooms'>
-				<Link to='/' className='btn-primary'>
-					Return Home
-				</Link>
-			</Banner>
-		</Hero>
+		<Fragment>
+			<Hero hero='roomsHero'>
+				<Banner title='rooms'>
+					<Link to='/' className='btn-primary'>
+						Return Home
+					</Link>
+				</Banner>
+			</Hero>
+			<RoomsContainer />
+		</Fragment>
 	);
 };
 

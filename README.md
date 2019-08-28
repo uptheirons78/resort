@@ -18,11 +18,21 @@
 16. import 'data.js' inside 'context.js' and format the incoming data in a new object;
 17. create Loading Component with a gif;
 18. create Room Component and display a list of Rooms inside FeaturedRoom Component;
-19. create a function inside 'context.js' called getRoom with a 'slug' parameter to filter 'rooms' based on it;
-20. update 'SingleRoom.js' page with RoomContext;
-21. install styled-components to render Hero Component background dinamically;
-22. create 'StyledHero.js';
 
-To do later:
+#### Single Room Page
+
+1. create a function inside 'context.js' called getRoom with a 'slug' parameter to filter 'rooms' based on it;
+2. update 'SingleRoom.js' page with RoomContext;
+3. install styled-components to render Hero Component background dinamically;
+4. create 'StyledHero.js';
+
+#### Rooms Page: display Rooms section
+
+1. create 'RoomsContainer.js', 'RoomsFilter.js' and 'RoomsList.js';
+2. import 'RoomsConsumer' inside 'RoomsContainer.js' to work with Context inside a Functional Component (commented out inside file);
+3. create an HigherOrderComponent called 'withRoomConsumer' inside 'context.js' and imported it inside 'RoomsContainer.js';
+4. import 'Room' Component inside 'RoomList.js' and render one for each rooms;
+
+## To do later:
 
 - refactor Navbar as a Functional Component using Hooks;
