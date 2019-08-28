@@ -26,12 +26,21 @@
 3. install styled-components to render Hero Component background dinamically;
 4. create 'StyledHero.js';
 
-#### Rooms Page: display Rooms section
+#### Rooms Page: Display Rooms section
 
 1. create 'RoomsContainer.js', 'RoomsFilter.js' and 'RoomsList.js';
 2. import 'RoomsConsumer' inside 'RoomsContainer.js' to work with Context inside a Functional Component (commented out inside file);
 3. create an HigherOrderComponent called 'withRoomConsumer' inside 'context.js' and imported it inside 'RoomsContainer.js';
 4. import 'Room' Component inside 'RoomList.js' and render one for each rooms;
+
+#### Rooms Page: Filter Rooms section
+
+1. update state inside 'context.js' adding 'type', 'capacity', 'price', 'minPrice', 'maxPrice', 'minSize', 'maxSize', 'breakfast' and 'pets';
+2. set maxPrice and maxSize inside ComponentDidMount() in 'context.js';
+3. create handleChange() and filterRooms() inside 'context.js';
+4. import useContext inside 'RoomsFilter.js' to use RoomsContext;
+5. create getUnique() function inside 'RoomsFilter.js' and render <select> <options> dinamically;
+6. complete filterRooms() function inside the context for any type and complete the <form> in RoomsFilter.js;
 
 ## To do later:
 
