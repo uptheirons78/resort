@@ -76,3 +76,14 @@
 4. import useContext inside 'RoomsFilter.js' to use RoomsContext;
 5. create getUnique() function inside 'RoomsFilter.js' and render `<select> <options>` dinamically;
 6. complete filterRooms() function inside the context for any type and complete the `<form>` in RoomsFilter.js;
+
+#### Contentful Setup
+
+[Repo](https://github.com/uptheirons78/resort/tree/contentful)
+
+1. npm i contentful and create the 'Contentful.js' file;
+2. create the '.env.local' file to store api keys;
+3. update 'context.js' with 'Client';
+4. create getData() inside context.js to fetch data from Contentful Api;
+5. run it inside ComponentDidMount()
+6. project ready to be deployed!

@@ -12,8 +12,8 @@ export default function RoomsFilter({ rooms }) {
 	const context = useContext(RoomContext);
 	const {
 		handleChange,
-		type,
-		capacity,
+		//type,
+		//capacity,
 		price,
 		minPrice,
 		maxPrice,
