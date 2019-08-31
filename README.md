@@ -87,3 +87,10 @@
 4. create getData() inside context.js to fetch data from Contentful Api;
 5. run it inside ComponentDidMount()
 6. project ready to be deployed!
+
+#### ScrollToTop Component
+
+[Repo](https://github.com/uptheirons78/resort/tree/scroll-top)
+
+1. 'react-router-dom' needs a 'scroll restoration' to work better, so create a 'ScrollToTop' Component;
+2. render it at the top of the 'App' in 'index.js' after `<Router></ Router>` 😉;

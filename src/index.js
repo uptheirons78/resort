@@ -4,11 +4,14 @@ import App from './App';
 import { BrowserRouter as Router } from 'react-router-dom';
 import * as serviceWorker from './serviceWorker';
 import { RoomProvider } from './context';
+import ScrollToTop from './components/ScrollToTop';
 
 ReactDOM.render(
 	<RoomProvider>
 		<Router>
-			<App />
+			<ScrollToTop>
+				<App />
+			</ScrollToTop>
 		</Router>
 	</RoomProvider>,
 	document.getElementById('root')
