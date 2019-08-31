@@ -1,5 +1,17 @@
 # RESORT - React Project
 
+Full Stack App built with React and Contentful Api  
+[Live Website](https://mb78-react-resort.netlify.com)
+
+- Clone or download it on your computer;
+- Sign up on [Contentful](https://www.contentful.com/) and get your API Keys;
+- Create a .env.local file inside the main project folder and register the API Keys;
+- Create some rooms inside Contentful following 'data.js' file structure;
+- Finally run the app with `npm start`;
+- Have fun!
+
+## Building Process:
+
 #### Setup
 
 [Repo](https://github.com/uptheirons78/resort/tree/setup)
@@ -86,7 +98,6 @@
 3. update 'context.js' with 'Client';
 4. create getData() inside context.js to fetch data from Contentful Api;
 5. run it inside ComponentDidMount()
-6. project ready to be deployed!
 
 #### ScrollToTop Component
 
@@ -94,3 +105,8 @@
 
 1. 'react-router-dom' needs a 'scroll restoration' to work better, so create a 'ScrollToTop' Component;
 2. render it at the top of the 'App' in 'index.js' after `<Router></ Router>` 😉;
+
+#### Deploy to Netlify
+
+1. the project is ready to be deployed on Netlify!
+2. live website link: [mb78-react-resort](https://mb78-react-resort.netlify.com)
